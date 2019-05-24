@@ -2,11 +2,9 @@
 import java.util.ArrayList;
 
 public class CanaisEsportes implements ColecaoDeCanais {
-
 	protected ArrayList<Canal> canais;
 
 	public CanaisEsportes() {
-
 		canais = new ArrayList<Canal>();
 
 		canais.add(new Canal("ESPN"));
@@ -17,7 +15,6 @@ public class CanaisEsportes implements ColecaoDeCanais {
 	}
 
 	public ArrayListDeCanaisIterator createIterator() {
-
 		return new ArrayListDeCanaisIterator(canais);
 	}
 }

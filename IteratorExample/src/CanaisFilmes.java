@@ -1,10 +1,8 @@
 
 public class CanaisFilmes implements ColecaoDeCanais {
-
 	protected Canal[] canais;
 
 	public CanaisFilmes() {
-
 		canais = new Canal[5];
 
 		canais[0] = new Canal("Telecine Premium");
@@ -15,7 +13,6 @@ public class CanaisFilmes implements ColecaoDeCanais {
 	}
 
 	public MatrizDeCanaisIterator createIterator() {
-
 		return new MatrizDeCanaisIterator(canais);
 	}
 }
