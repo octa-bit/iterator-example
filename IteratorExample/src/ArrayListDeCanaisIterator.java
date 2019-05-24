@@ -5,7 +5,7 @@ public class ArrayListDeCanaisIterator implements Iterator {
 	protected ArrayList<Canal> lista;
 	protected int contador;
 
-	protected ArrayListDeCanaisIterator(ArrayList<Canal> lista) {
+	public ArrayListDeCanaisIterator(ArrayList<Canal> lista) {
 		this.lista = lista;
 		contador = 0;
 	}
